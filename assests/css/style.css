@@ -1,0 +1,232 @@
+body{
+
+}
+.clearfix{
+	clear:both;
+}
+.no-padding{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+.no-margin{
+	margin-left:0!important;
+	margin-right:0!important;
+}
+
+/*header section starts */
+.header{
+    width: 100%;
+    background: #4e83ca;
+}
+.logo h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.logo a{
+    color:#ffffff;
+    text-decoration: underline;
+}
+.logo a:hover{
+    color:#ffffff;
+}
+.nav ul{
+    text-align: right;
+    padding-top: 10px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav ul li a:link, .nav ul li a:visited{
+    color:#ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*header section ends */
+
+/* banner section start */
+.banner{
+    background: url("../images/cover.jpg")no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    overflow:hidden;
+    height:400px;
+}
+.banner-content h1{
+    font-family: 'Kaushan Script', cursive;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 50px;
+}
+.banner-content{
+    text-align:center;
+    padding-top:50px;
+}
+.banner-content p{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* details section starts */
+.my-detail{
+    border: 2px solid #4e83ca;
+    border-left: none;
+    border-top:none;
+    border-bottom: none;
+    margin-top: 70px;
+    padding-left: 10px;
+    padding-right:40px;
+}
+.my-details{
+    margin: 70px 0;
+    padding-left: 10px;
+    padding-right:40px;
+}
+.my-detail h1, .my-details h1{
+    font-size: 25px;
+    color:#565656;
+}
+.my-detail p, .my-details p{
+    padding-top:15px;
+    font-size: 15px;
+    text-align: justify;
+    font-style: italic;
+}
+.footer{
+    background: #4e83ca;
+    padding-top: 15px;
+}
+.copy-right p{
+    color:#d6d6d6;
+    font-size: 15px;
+}
+.copy-right p a:link, .copy-right p a:visited{
+    color:#ffffff;
+}
+.copy-right p a:hover{
+    color:#ffffff;
+}
+.github p{
+    color:#d6d6d6;
+    font-size: 15px;
+    text-align: right;
+}
+.github p a:link, .copy-right p a:visited{
+    color:#ffffff;
+    text-decoration: underline;
+}
+.github p a:hover{
+    color:#ffffff;
+}
+
+/* work section start */
+.portfolio-image{
+    position: relative;
+}
+.image {
+  opacity: 0.2;
+  height:300px;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.portfolio-image:hover .image {
+  opacity: 1;
+}
+
+.portfolio-image:hover .middle {
+  opacity: 0;
+}
+
+.text {
+  background-color: #4e83ca;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+}
+.work-heading h1, .portfolio-image h1{
+    font-size: 25px;
+    color:#565656;
+}
+.work-heading p, .portfolio-image p{
+    color:#565656;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* for mobile design, responsive design */
+
+@media screen and (max-width:768px){
+    .menu-trigger{
+        display: block;
+        color: #448aad;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding-top: 35px;
+    }.menubar{
+        display: none;
+    }
+    .menubar ul{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .menubar ul li{
+        border-bottom: 2px solid #448aad;
+        padding-top: 3px;
+        padding-bottom: 0;
+        width: 150px;
+    }
+    .menubar ul li:last-child{
+        border-bottom:none;
+    }
+    .menubar ul li a:link, .menubar ul li a:visited{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .menubar ul li a:hover{
+        color:#ffffff;
+        background: #448aad;
+        padding:5px 5px;
+    }
+    .nav-expanded{
+		display:block;
+	}
+    .user-account{
+        padding: 10px 5px;
+        text-align: left;
+    }
+    .user-account ul li:first-child{
+        border-right: none;
+    }
+    .user-account ul li:last-child{
+        border-left: none;
+        border-top: 1px solid #448aad;
+    }
+    .iphone, .form{
+        display: none;
+    }
+    .banner{
+        height:auto;
+    }
+    .banner-heading h1{
+        text-align: center;
+    }
+    .banner-content{
+        text-align:center;
+        background: none;
+    }
+}
