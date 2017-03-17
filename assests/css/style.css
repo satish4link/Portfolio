@@ -60,11 +60,11 @@ body{
     text-transform: capitalize;
     color:#ffffff;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .banner-content{
     text-align:center;
-    padding-top:50px;
+    padding:40px 0;
 }
 .banner-content p{
     color: #ffffff;
@@ -72,17 +72,18 @@ body{
 }
 
 /* details section starts */
+.details{
+    padding: 70px 0;
+}
 .my-detail{
     border: 2px solid #4e83ca;
     border-left: none;
     border-top:none;
     border-bottom: none;
-    margin-top: 70px;
     padding-left: 10px;
     padding-right:40px;
 }
 .my-details{
-    margin: 70px 0;
     padding-left: 10px;
     padding-right:40px;
 }

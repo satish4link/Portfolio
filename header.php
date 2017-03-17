@@ -8,8 +8,6 @@ session_start();
 	<title>Satish's Portfolio</title>
 	<!-- css link -->
 	<link rel="stylesheet" type="text/css" href="assests/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assests/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="assests/slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="assests/css/style.css" />
         
 	<!-- font awesome -->
@@ -41,8 +39,8 @@ session_start();
                     <div class="nav">
                         <ul>
                             <li><a href="work.php">Work</a></li>
-                            <li><a href="https://github.com/satish4link">GitHub</a></li>
-                            <li><a href="https://twitter.com/satish4link">Twitter</a></li>
+                            <li><a href="https://github.com/satish4link" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/satish-chaudhary-63a261117/" target="_blank">LinkedIn</a></li>
                         </ul>
                     </div>
                 </div>
