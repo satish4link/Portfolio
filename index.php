@@ -11,7 +11,7 @@ require_once 'header.php';
                         <h1>hello, i'm satish.</h1>
                         <div class="col-xs-12 col-sm-12 col-md-2"></div>
                         <div class="col-xs-12 col-sm-12 col-md-8">
-                            <p style="font-size: 20px;">I have been developing many projects on the web for over two years, form simple front-end websites to ecommerce websites. You can see some projects, I have worked on <a style="text-decoration: underline;" href="work.php">here</a>.</p>
+                            <p>I have been developing many projects on the web for over two years, form simple front-end websites to ecommerce websites. You can see some projects, I have worked on <a style="text-decoration: underline;" href="work.php">here</a>.</p>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-2"></div>
                     </div>

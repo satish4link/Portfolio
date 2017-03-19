@@ -31,6 +31,11 @@ body{
 .logo a:hover{
     color:#ffffff;
 }
+
+.mobileview-menu{
+    display: none;
+}
+
 .nav ul{
     text-align: right;
     padding-top: 10px;
@@ -68,7 +73,7 @@ body{
 }
 .banner-content p{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* details section starts */
@@ -159,6 +164,11 @@ body{
   font-size: 20px;
   padding: 10px;
 }
+
+.work{
+    padding: 50px 0;
+}
+
 .work-heading h1, .portfolio-image h1{
     font-size: 25px;
     color:#565656;
@@ -172,62 +182,50 @@ body{
 /* for mobile design, responsive design */
 
 @media screen and (max-width:768px){
-    .menu-trigger{
+    .mobileview-menu{
         display: block;
-        color: #448aad;
-        text-transform: uppercase;
-        cursor: pointer;
-        padding-top: 35px;
-    }.menubar{
+        padding-top: 15px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    .nav{
         display: none;
-    }
-    .menubar ul{
-        text-align: center;
-        padding-top: 100px;
-    }
-    .menubar ul li{
-        border-bottom: 2px solid #448aad;
-        padding-top: 3px;
-        padding-bottom: 0;
-        width: 150px;
-    }
-    .menubar ul li:last-child{
-        border-bottom:none;
-    }
-    .menubar ul li a:link, .menubar ul li a:visited{
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .menubar ul li a:hover{
-        color:#ffffff;
-        background: #448aad;
-        padding:5px 5px;
     }
     .nav-expanded{
-		display:block;
-	}
-    .user-account{
-        padding: 10px 5px;
-        text-align: left;
+        display: block;
     }
-    .user-account ul li:first-child{
+    .banner-content img{
+        width: 100px;
+    }
+    .banner-content h1{
+        font-size: 25px;
+    }
+    .banner-content p{
+        font-size: 15px;
+    }
+    .details{
+        padding: 30px 0;
+    }
+    .my-detail{
         border-right: none;
+        border-bottom: 2px solid #4e83ca;
     }
-    .user-account ul li:last-child{
-        border-left: none;
-        border-top: 1px solid #448aad;
-    }
-    .iphone, .form{
-        display: none;
-    }
-    .banner{
-        height:auto;
-    }
-    .banner-heading h1{
+    .copy-right p{
         text-align: center;
     }
-    .banner-content{
-        text-align:center;
-        background: none;
+    .github p{
+        text-align: center;
+    }
+    .work{
+        padding: 30px 0;
+    }
+    .portfolio-image{
+        padding: 30px 0;
+    }
+    .image{
+        height: 170px;
+    }
+    .middle{
+        display: none;
     }
 }

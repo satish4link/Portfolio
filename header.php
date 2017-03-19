@@ -1,6 +1,4 @@
-<?php
-session_start();
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -21,7 +19,6 @@ session_start();
 
 	<!-- jQuery link-->
 	<script src="assests/js/jquery-1.12.2.js"></script>
-	<script src="assests/js/isotope.pkgd.min.js"></script>
 	<script src="assests/js/custom.js"></script>
 
 </head>
@@ -30,11 +27,12 @@ session_start();
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="col-xs-11 col-sm-12 col-md-6">
                     <div class="logo">
-                        <h1><a href="index.php">chaudhary.satish</a></h1>
+                        <h1>chaudhary.<a href="index.php">satish</a></h1>
                     </div>
                 </div>
+                <span class="mobileview-menu"><i class="fa fa-bars" aria-hidden="true"></i></span>
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <div class="nav">
                         <ul>

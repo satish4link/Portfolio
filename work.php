@@ -9,11 +9,11 @@ require_once 'header.php';
 					<h1>Work</h1>
 					<p>Some examples of projects I’ve worked on are shown below.</p>
 				</div>
-				<hr />
+				<hr style="height:1px;background-color:#333;" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12">
 				<div class="work-heading">
-					<h1>E-Commerce Websites</h1>
+					<h1>E-Commerce Websites:</h1>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
@@ -21,7 +21,7 @@ require_once 'header.php';
 					<a href="https://men-fashain.000webhostapp.com" target="_blank">
 						<img src="assests/images/portfolio1.png" class="image" alt="Portfolio 1" />
 					</a>
-					<div class="middle" style="top:23%;">
+					<div class="middle mobileview1" style="top:23%;">
 						<h2 class="text">Men Fashain</h2>
 					</div>
 					<h1>Men Fashain(2016)</h1>
@@ -40,7 +40,7 @@ require_once 'header.php';
 					<a href="http://falafaal.000webhostapp.com" target="_blank">
 						<img src="assests/images/portfolio2.png" class="image" alt="Portfolio 2" />
 					</a>
-					<div class="middle" style="top:25%;">
+					<div class="middle mobileview2" style="top:25%;">
 						<h2 class="text">Falafaal</h2>
 					</div>
 					<h1>Falafaal(2016)</h1>
@@ -56,9 +56,9 @@ require_once 'header.php';
 
 
 			<div class="col-xs-12 col-sm-12 col-md-12">
-				<hr /><br/>
+				<hr style="height:1px;background-color:#333;" /><br/>
 				<div class="work-heading">
-					<h1>Online Management System Websites</h1>
+					<h1>Online Management System Websites:</h1>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
@@ -66,7 +66,7 @@ require_once 'header.php';
 					<a href="http://attendance.mypressonline.com/" target="_blank">
 						<img src="assests/images/portfolio3.png" class="image" alt="Portfolio 3" />
 					</a>
-					<div class="middle" style="top:25%;">
+					<div class="middle mobileview3" style="top:25%;">
 						<h2 class="text">Attendance Management</h2>
 					</div>
 					<h1>Attendance Management System(Working On)</h1>
@@ -83,9 +83,9 @@ require_once 'header.php';
 
 
 			<div class="col-xs-12 col-sm-12 col-md-12">
-				<hr /><br/>
+				<hr style="height:1px;background-color:#333;" /><br/>
 				<div class="work-heading">
-					<h1>Templates Design Websites(2015)</h1>
+					<h1>Templates Design Websites(2015):</h1>
 					<p>These are template design websites(front-end design only). I developed these websites with the help of a templates design in 2015 while I was new in developing career.</p>
 				</div>
 			</div>
@@ -94,7 +94,7 @@ require_once 'header.php';
 					<a href="http://perth.myartsonline.com" target="_blank">
 						<img src="assests/images/portfolio4.png" class="image" alt="Portfolio 4" />
 					</a>
-					<div class="middle">
+					<div class="middle mobileview4">
 						<h2 class="text">Perth Template</h2>
 					</div>
 					<h1>Perth Template</h1>
@@ -106,7 +106,7 @@ require_once 'header.php';
 					<a href="http://template2.atwebpages.com" target="_blank">
 						<img src="assests/images/portfolio5.png" class="image" alt="Portfolio 5" />
 					</a>
-					<div class="middle">
+					<div class="middle mobileview4">
 						<h2 class="text">Template 2</h2>
 					</div>
 					<h1>Template 2</h1>
